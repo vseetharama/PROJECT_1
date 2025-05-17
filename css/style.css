@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior:  smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+ table {
+    background-color:whitesmoke; 
+   
+}
+
+
+/* menu style */
+.menu {
+    height: 60px;
+    width: 100%;
+    background-color:turquoise;
+}
+
+.menu .menu-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-container a {
+    text-decoration: none;
+    cursor: pointer;
+    color:bl;
+}
+
+.menu-container .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-items a {
+    padding: 8px 10px;
+    background-color:whitesmoke;
+    border-radius: 6px;
+    transition: all 0.4s;
+}
+
+.menu-items a:hover {
+    background-color:white;
+}
+
+/* body */
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+
+.container .title {
+    text-align: center;
+    color:deeppink;
+}
+
+.container .table-responsive {
+    overflow: auto;
+}
+
+
+table,tr,td,th {
+   
+ padding :10px;
+    text-align: center;
+}
+
+td,th {
+    padding: 10px;
+    background-color:white; 
+    color: black;
+     border: 2px solid black;
+
+}
+
+.btn {
+    padding: 6px 8px;
+    text-decoration: none;
+    border: none;
+    color:#fff;
+    cursor: pointer;
+    margin: 3px;
+    border-radius: 6px;
+}
+
+.success {
+    background-color: green;
+}
+
+.info {
+    background-color: #17a2b8;
+} 
+
+.danger {
+    background-color: orangered;
+}
+
+/* form style */
+
+form {
+   border: 4px double black;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+form .form-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1rem;
+    
+   
+}
+
+form .form-input {
+    
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    outline: none;
+    border: 4px double #222;
+}
